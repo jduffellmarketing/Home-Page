@@ -5,22 +5,63 @@ const title = "JDuffell Marketing";
 ---
 
 <Layout title={title}>
-  <h1 class="mb-6">JDuffell Marketing</h1>
+  <main class="mx-auto max-w-3xl px-6 py-12">
+    <!-- Logo -->
+    <img
+      src="/logo.png"
+      alt="JDuffell Marketing logo"
+      class="h-auto w-40 sm:w-48 mb-8"
+      style="display:block;margin-left:auto;margin-right:auto;"
+    />
 
-  <p class="mb-4 text-lg">
-    Freelance marketing support for small businesses.
-  </p>
+    <!-- Header -->
+    <header class="text-center mb-10">
+      <h1 class="text-4xl sm:text-5xl font-bold tracking-tight mb-4">JDuffell Marketing</h1>
+      <p class="text-lg sm:text-xl">
+        Freelance marketing support for small businesses.
+      </p>
+    </header>
 
-  <p class="mb-6">
-    I help with SEO, blog writing, website copy, and digital content. I work remotely with clients across the UK and can support one-off projects or ongoing monthly work.
-  </p>
+    <!-- Main copy -->
+    <section class="mb-10">
+      <p class="text-lg mb-6">
+        I help with SEO, blog writing, website copy, and digital content. I work remotely with clients across the UK and can support one-off projects or ongoing monthly work.
+      </p>
 
-  <p class="mb-8">
-    <strong>Services:</strong> SEO basics, on-page SEO, blog writing, website content, social content support.
-  </p>
+      <div class="rounded-2xl border p-6">
+        <h2 class="text-xl font-semibold mb-4">Services</h2>
+        <ul class="list-disc pl-5 space-y-2">
+          <li>SEO basics and on-page SEO</li>
+          <li>Blog writing and simple content plans</li>
+          <li>Website copy (home, services, about)</li>
+          <li>Social content support</li>
+          <li>Light design support for digital use</li>
+        </ul>
+      </div>
+    </section>
 
-  <p>
-    <a href="mailto:hello@jduffellmarketing.co.uk" class="btn btn-lg sm:min-w-64">Email me</a>
-  </p>
+    <!-- CTA -->
+    <section class="text-center">
+      <p class="mb-4">
+        Want help with your marketing? Send over what you need and I’ll reply with next steps.
+      </p>
+
+      <div class="flex flex-col sm:flex-row gap-3 justify-center">
+        <a href="mailto:hello@jduffellmarketing.co.uk" class="btn btn-lg sm:min-w-64">Email me</a>
+        <a href="https://www.instagram.com/jduffellmarketing/" class="btn btn-lg sm:min-w-64">Message on Instagram</a>
+      </div>
+
+      <!-- Low-key Instagram handle (no feed embed) -->
+      <p class="mt-6 text-sm text-center opacity-80">
+        Instagram:
+        <a href="https://www.instagram.com/jduffellmarketing/" class="underline">@jduffellmarketing</a>
+      </p>
+
+      <p class="mt-4 text-sm opacity-80">
+        Based in Greater Manchester • Working with clients across the UK
+      </p>
+    </section>
+  </main>
 </Layout>
+
 
